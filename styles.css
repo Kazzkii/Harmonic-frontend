@@ -1,0 +1,52 @@
+
+
+body {
+  background-color: rgb(238, 203, 243);
+  color: rgb(255, 255, 255);
+}
+
+a:visited {
+  color: lightgray;
+}
+
+.content{
+  margin: 0 auto;
+  padding: 10px 0;
+}
+
+.test {
+  display: flex;
+  align-items:center;
+  justify-content: center;
+}
+
+.piano {
+  display: flex;
+  flex-direction: row;
+}
+
+
+
+.key {
+  background-color: white;
+  height: 300px;
+  width: 60px;
+  border: 2px solid black;
+}
+
+.key-text {
+  position: relative;
+  color: black;
+  font-weight: 600;
+  font-size: 12px;
+  margin-top: 200px;
+  pointer-events:none;
+}
+
+.header {
+  color: black;
+}
+
+.key.flat {
+  
+}
